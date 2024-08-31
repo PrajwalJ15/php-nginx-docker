@@ -14,12 +14,6 @@ Repository: https://hub.docker.com/r/wodby/php-nginx
 * The logs of all the services are redirected to the output of the Docker container (visible with `docker logs -f <container name>`)
 * Follows the KISS principle (Keep It Simple, Stupid) to make it easy to understand and adjust the image to your needs
 
-[![Docker Pulls](https://hub.docker.com/r/wodby/php-nginx)
-![nginx 1.26](https://img.shields.io/badge/nginx-1.26-brightgreen.svg)
-![php 8.3](https://img.shields.io/badge/php-8.3-brightgreen.svg)
-![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
-
-
 ## Goal of this project
 The goal of this container image is to provide an example for running Nginx and PHP-FPM in a container which follows
 the best practices and is easy to understand and modify to your needs.
