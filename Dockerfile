@@ -1,6 +1,6 @@
 ARG ALPINE_VERSION=3.20
 FROM alpine:${ALPINE_VERSION}
-LABEL Maintainer="Tim de Pater <code@trafex.nl>"
+LABEL Maintainer="Prajwal <wodby/php-nginx>"
 LABEL Description="Lightweight container with Nginx 1.26 & PHP 8.3 based on Alpine Linux."
 # Setup document root
 WORKDIR /var/www/html
